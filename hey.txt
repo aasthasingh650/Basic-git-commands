@@ -1,1 +1,2 @@
 Git-Aasthasingh650
+Commands for git bash

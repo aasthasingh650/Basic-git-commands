@@ -17,7 +17,7 @@ This will create the MyProj in your working directory
 $ pwd
 c\user\
 ```
-Suppose You was in c:/user initially
+Suppose You were in c:/user initially
 
 #### Changing Directory
 ```cd``` command is used to change directory to the directory present in the current directory

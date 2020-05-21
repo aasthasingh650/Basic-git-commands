@@ -72,6 +72,7 @@ $ rmdir MyProj2
 ```
 This command will delete the MyProj2 folder in the working directory if present or it raises File Not Found Error
 > Note : If you try to remove directory using ```rm``` command , then it will raise error saying ```Can't delete <DIR_NAME>: Is a directory``` .
+
 However ```rm``` command can be used to delete directories using ```rm -r <DIR_NAME>``` command.
 
 #### Renaming or Moving a file or directory

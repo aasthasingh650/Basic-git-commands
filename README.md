@@ -94,7 +94,7 @@ $ cp sample.txt MyProj2
 You cant copy files to the same directory
 
 #### Copying Directory
-```cp -r DIR_NAME destination``` command copies the directory1 to destination 
+```cp -r DIR_NAME destination``` command copies the directory to destination 
 ```
 $ cp MyProj2 MyProj3
 ```

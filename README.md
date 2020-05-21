@@ -71,7 +71,7 @@ This removes the index.html file
 $ rmdir MyProj2
 ```
 This command will delete the MyProj2 folder in the working directory if present or it raises File Not Found Error
-Note : If you try to remove directory using ```rm``` command , then it will raise error saying ```Can't delete <DIR_NAME>: Is a directory``` .
+> Note : If you try to remove directory using ```rm``` command , then it will raise error saying ```Can't delete <DIR_NAME>: Is a directory``` .
 However ```rm``` command can be used to delete directories using ```rm -r <DIR_NAME>``` command.
 
 #### Renaming or Moving a file or directory
@@ -93,17 +93,17 @@ $ cp sample.txt MyProj2
 You cant copy files to the same directory
 
 #### Copying Directory
-**cp -r DIR_NAME destination** command copies the directory1 to destination 
+```cp -r DIR_NAME destination``` command copies the directory1 to destination 
 ```
 $ cp MyProj2 MyProj3
 ```
 You cant directory to the same directory
 
 #### Copying All
-```**cp -r . destination**``` copies all the files and directories in the current directory to the destination folder
+```cp -r . destination``` copies all the files and directories in the current directory to the destination folder
 ##### Note : The same folder will not be copied to itself.
 
-- Clearing Prompt/Terminal/Bash
+#### Clearing Prompt/Terminal/Bash
 ```clear``` command clear the screen and gives you a fresh screen 
 ```
 $ clear

@@ -107,7 +107,7 @@ You can't type anything in this as currently your editor is in command mode.
 		- Shift + z + z -> Save and quit
 		- :wq! -> Save and quit
 		- :q! -> Quit without saving
-	- For more commands go to this link [Liknk1](https://www.guru99.com/the-vi-editor.html) or [Link2](https://www.cs.colostate.edu/helpdocs/vi.html)
+	- For more commands go to this link [Link1](https://www.guru99.com/the-vi-editor.html) or [Link2](https://www.cs.colostate.edu/helpdocs/vi.html)
 
 
 

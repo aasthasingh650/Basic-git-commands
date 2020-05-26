@@ -79,6 +79,7 @@ vi sample.txt
 ```
 This command will open the window for sample.txt like this : 
 - ![](src/vi.jpg)
+
 You can't type anything in this as currently your editor is in command mode.
 - Insert Commands in **vi** type editor
 	- i -> Write at cursor position

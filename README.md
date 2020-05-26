@@ -61,6 +61,57 @@ Hello World
 ```
 It preserves all white spaces on execution
 
+#### Editing File in editor mode using git
+```vi``` and  ```nano``` commands are used to open a editable file in a editor on git bash.
+> It doesn't require any other editor and is already in your git bash
+1. ```vi``` command
+This command open files like .txt .html .cpp .py .java ... etc which can be edited in a  editor.
+- About
+The UNIX vi editor is a full screen editor and has two modes of operation:
+1. Command mode commands which cause action to be taken on the file, and
+2. Insert mode in which entered text is inserted into the file.
+> In the command mode, every character typed is a command that does something to the text file being edited; a character typed in the command mode may even cause the vi editor to enter the insert mode. In the insert mode, every character typed is added to the text in the file; pressing the <Esc> (Escape) key turns off the Insert mode.
+> In Simple words, command mode takes user command to perform operations on file and its data like copying, undoing, deleting etc. While insert mode is for typing data
+
+- Opening File
+```
+vi sample.txt
+```
+This command will open the window for sample.txt like this : 
+- ![](src/vi.jpg)
+You can't type anything in this as currently your editor is in command mode.
+- Insert Commands in **vi** type editor
+	- i -> Write at cursor position
+	- a -> Write after cursor position
+	- A -> Write at the end of line
+	- o -> Opens a new line
+- Command Mode operations (file opens in command mode initially, press **ESC** key to get into command mode, if you are in insert mode)
+	- Undoing data
+		- u -> undo changed 
+		- U -> undo all changes in that line
+	- Copy and pasting
+		- p -> Paste all what you have copied on clipboard
+		- yy -> Copies 1 line
+		- 3yy -> Copies 3 lines
+		- Nyy -> Copies N lines
+	- Deleting Commands
+		- D -> Delete contents of line after the cursor
+		- dw -> Deletes single word
+		- 5dw -> Deleted 4 words
+		- Ndw -> Deletes N words
+		- dd -> Deletes 1 line
+		- 5dd -> Deletes 5 lines starting from cursor position
+		- Ndd -> Deletes N lines starting from cursor position
+	- Quitting vi editor
+		- Shift + z + z -> Save and quit
+		- :wq! -> Save and quit
+		- :q! -> Quit without saving
+	- For more commands go to this link [Liknk1](https://www.guru99.com/the-vi-editor.html) or [Link2](https://www.cs.colostate.edu/helpdocs/vi.html)
+
+
+
+
+
 #### Deleting file or directory
 ```rm <filename.extention>``` removes the file and ```rmdir <directort name>``` removes the directory 
 ```

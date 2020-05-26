@@ -62,8 +62,10 @@ Hello World
 It preserves all white spaces on execution
 
 #### Editing File in editor mode using git
+
 ```vi``` and  ```nano``` commands are used to open a editable file in a editor on git bash.
-> It doesn't require any other editor and is already in your git bash
+
+It doesn't require any other editor and is already in your git bash
 1. ```vi``` command
 This command open files like .txt .html .cpp .py .java ... etc which can be edited in a  editor.
 - About

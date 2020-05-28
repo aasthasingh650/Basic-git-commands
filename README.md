@@ -92,6 +92,7 @@ You can't type anything in this as currently your editor is in command mode.
 	- Undoing data
 		- u -> undo changed 
 		- U -> undo all changes in that line
+		- ctrl + r -> Redo Changes
 	- Copy and pasting
 		- p -> Paste all what you have copied on clipboard
 		- yy -> Copies 1 line
